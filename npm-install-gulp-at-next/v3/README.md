@@ -33,7 +33,11 @@ gulp.task('css', ['clean'], function() {
 });
 
 gulp.task('js', ['clean'], function() {
-  return rollup({ input: 'client/js/index.js', sourcemap: true, format: 'iife' })
+  return rollup({
+      input: 'client/js/index.js',
+      sourcemap: true,
+      format: 'iife'
+    })
     .pipe(source('app.js'))
     .pipe(buffer())
     .pipe(sourcemaps.init({ loadMaps: true }))
