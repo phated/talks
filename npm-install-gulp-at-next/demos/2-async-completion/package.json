@@ -1,0 +1,17 @@
+{
+  "name": "2-async-completion",
+  "version": "0.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Blaine Bublitz <blaine.bublitz@gmail.com> (https://github.com/phated)",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "rimraf": "^2.6.2",
+    "rxjs": "^5.5.6"
+  }
+}
