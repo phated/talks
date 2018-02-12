@@ -1,0 +1,35 @@
+@theme-color: #fff;
+@theme-bg: #CF4647;
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0;
+}
+
+body > * {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.themed {
+  color: @theme-color;
+  background: @theme-bg;
+}
+
+.pinned {
+  flex-grow: 0;
+}
+
+.header {
+  .pinned;
+  .themed;
+}
+
+.footer {
+  .themed;
+  .pinned;
+}
+
+

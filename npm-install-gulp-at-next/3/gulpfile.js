@@ -19,23 +19,26 @@ gulp.task('clean', function() {
 });
 
 gulp.task('html', ['clean'], function() {
-  return gulp.src(['client/html/*.pug', '!client/html/_*.pug'])
+  return gulp.src([
+      'client/html/*.pug',
+      '!client/html/_*.pug'
+    ])
     .pipe(pug())
     .pipe(gulp.dest('build/html'))
 });
 
 gulp.task('css', ['clean'], function() {
   return gulp.src('client/css/*.less')
+    .pipe(sourcemaps.init({ loadMaps: true }))
     .pipe(less())
     .pipe(minifyCSS())
+    .pipe(sourcemaps.write())
     .pipe(gulp.dest('build/css'))
 });
 
 gulp.task('js', ['clean'], function() {
   return rollup({
-      input: 'client/js/index.js',
-      sourcemap: true,
-      format: 'iife'
+      input: 'client/js/index.js', sourcemap: true, format: 'iife'
     })
     .pipe(source('app.js'))
     .pipe(buffer())
