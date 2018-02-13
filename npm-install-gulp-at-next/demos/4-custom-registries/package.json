@@ -1,0 +1,17 @@
+{
+  "name": "4-custom-registries",
+  "version": "0.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Blaine Bublitz <blaine.bublitz@gmail.com> (https://github.com/phated)",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "undertaker-common-tasks": "^1.0.1",
+    "undertaker-task-metadata": "^1.0.0"
+  }
+}
