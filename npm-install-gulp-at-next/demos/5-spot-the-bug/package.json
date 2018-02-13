@@ -1,0 +1,16 @@
+{
+  "name": "5-spot-the-bug",
+  "version": "0.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Blaine Bublitz <blaine.bublitz@gmail.com> (https://github.com/phated)",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "rimraf": "^2.6.2"
+  }
+}
