@@ -1,0 +1,16 @@
+{
+  "name": "4-watcher",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Blaine Bublitz <blaine.bublitz@gmail.com> (https://github.com/phated)",
+  "license": "MIT",
+  "devDependencies": {
+    "esm": "^3.2.22",
+    "gulp": "^4.0.2"
+  }
+}
