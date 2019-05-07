@@ -1,0 +1,28 @@
+{
+  "name": "v4",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Blaine Bublitz <blaine.bublitz@gmail.com> (https://github.com/phated)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "esm": "^3.2.22",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "rimraf": "^2.6.2",
+    "rollup-stream": "^1.24.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
