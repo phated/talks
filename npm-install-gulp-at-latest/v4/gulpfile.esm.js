@@ -48,7 +48,7 @@ function js() {
     buffer(),
     // Looking to replace this soon
     sourcemaps.init({ loadMaps: true }),
-    babel({ presets: ['@babel/env'] }),
+    babel({ presets: ['@babel/preset-env'] }),
     uglify(),
     dest('output/js', { sourcemaps: './' })
   ]);
